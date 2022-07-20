@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<title>Story of the K-POP</title>
+<h1><a href="
+  file:///C:/Users/seoas/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/wep/0.html
+  ">The 2nd generation of K-POP</a></h1>
+</head>
+
+<body>
+    <script>
+
+    var Links = {
+      setColor:function(color){
+       var alist = document.querySelectorAll('a');
+       var i = 0;
+       while(i < alist.length){
+       alist[i].style.color=color;
+       i = i + 1;
+       }
+     }
+    }
+
+    var Body ={
+      setColor:function(color){
+      document.querySelector('body').style.color=color;
+    },
+      setBackgroundColor:function(color){
+      document.querySelector('body').style.backgroundColor=color;
+        }
+      }
+
+
+
+    function nightDayHandler2(self){
+    var target=document.querySelector('body');
+
+    if(self.value === 'night'){
+    Body.setBackgroundColor('black');
+    Body.setColor('white');
+    self.value='day';
+
+    Links.setColor('powderblue');
+    } else {
+    Body.setBackgroundColor('white');
+    Body.setColor('black');
+    self.value='night';
+
+    LinksSetColor('blue');
+      }
+    }
+    </script>
+
+
+
+</body>
+
+  <input type="button" value="night" onclick="
+  var target=document.querySelector('body');
+
+  if(this.value === 'night'){
+  target.style.backgroundColor='black';
+  target.style.color='white';
+  this.value='day';
+
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while(i < alist.length){
+  alist[i].style.color='powderblue';
+  i = i + 1;
+  }
+  } else {
+  target.style.backgroundColor='white';
+  target.style.color='black';
+  this.value='night';
+
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while(i < alist.length){
+  alist[i].style.color='blue';
+  i = i + 1;
+      }
+    }
+  ">
+
+
+  <style>
+  .THW
+  {font-weight:bold;
+  color:blue;
+  background-color:#80BDE3;}
+  span{color:red}
+  </style>
+
+  <p>
+    Arguably one of the pioneers of <span class="THW">the Hallyu wave</span>,
+  2nd generation K-POP groups were immensely popular
+  thanks to their songs with catchy hooks and simple point dances.
+  Back then, one couldn’t help but love <span>BIGBANG</span>’s electronic beats,
+  <span>Girls’ Generation</span>’s top-notch visuals,
+  <span>Super Junior</span>’s addictive choreographies,
+  and <span>TVXQ</span>’s powerful harmonious vocals.
+</p>
+<ol>
+<li><a href="1.html">TVXQ</a></li>
+<li><a href="2.html">BIGBANG</a></li>
+<li><a href="3.html">GIRL'S Generation</a></li>
+</ol><p style="margin-top:10px;">
+
+  <input type="button" value="night" onclick=
+  "nightDayHandler2(this);"
+
+
+
+</html>

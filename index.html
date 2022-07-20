@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <title>2nd gen of K-pop</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="file:///C:/inetpub/wwwroot/web/index.html">
+    Development of the K-pop IDOL industry </a></h1>
+      <input id="night_day2" type="button" value="night" onclick=
+      "nightDayHandler2(this);">
+      <br>
+    <p>Now many K-pop groups are now enjoying worldwide popularity.<br>
+    A representative example is BTS, the winner of the US Billboard Awards.<br>
+    Besides that, there are EXO, IU, etc.</p>
+<img src="img.bts.jpg" width="25%"><img src="img.iu.jpg" width="25%">
+    <p>Until the current culture was created, kpop idols were divided by generation.<br>
+    Among them, the emergence of 2nd generation idols
+    led to the heyday as it is now.<br>
+    <p>
+      <img src="Kpop-concert.jpg" width="50%"><br>
+      <style>
+      .THW
+      {font-weight:bold;
+      color:green;}
+      span{color:red}
+      </style>
+      As one of the pioneers of<span class="THW"> the Hallyu wave</span>,
+      2nd generation K-POP groups were<br> immensely popular thanks to their songs
+      with catchy hooks and simple point dances. <br>Back then,
+      one couldn’t help but love <span>BIGBANG</span>’s electronic beats,
+      <span>Girls’ Generation</span>’s visuals,<br>
+      <span>Super Junior</span>’s addictive choreographies,
+      and <span>TVXQ</span>’s powerful harmonious vocals.</p>
+
+
+    <!--
+    <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white';
+    ">
+    <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+    ">
+  -->
+<script>
+function nightDayHandler(self){
+  var target = document.querySelector('body');
+  if(self.value === 'night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    self.value = 'day';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+            alist[i].style.color ='powderblue';
+            i = i + 1;
+          }
+
+  } else {
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    self.value = 'night';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+            alist[i].style.color ='blue';
+            i = i + 1;
+            }
+          }
+
+    }
+</script>
+
+<input id="night_day" type="button" value="night" onclick="nightDayHandler2(this);">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="color.js"></script>
+
+<ol>
+<li><a href="1.html">TVXQ.</a> Debut December 2003, "hug"</li>
+<li><a href="1-1.html">Super Junior.</a> Debut November 2005, "Twins"</li>
+<li><a href="2.html">BIGBANG.</a>Debut August 2006, "We Belong Together"</li>
+<li><a href="3.html">Girl's Generation.</a>Debut August 2007, "Into the New World"</li>
+<li><a href="3-1.html">Wonder Girls.</a>Debut February 2007, "The Wonder Begins"</li>
+<li><a href="3-2.html">Kara.</a>Debut March 2007, "The First Bloooooming"</li>
+<li><a href="4.html">SHINee.</a>Debut May 2008, "Replay"</li>
+<li><a href="5.html">2AM.</a>Debut July 2008, "This Song"</li>
+<li><a href="5-1.html">2PM.</a>Debut September 2008, "Hottest Time of the Day"</li>
+<li><a href="6.html">2NE1.</a>Debut May 2009, "Fire"</li>
+</ol><p style="margin-top:10px;">
+</body>
+</html>
